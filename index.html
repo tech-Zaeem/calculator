@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Calculator</h2>
+    <div id="outer">
+        <h1 id="h11"></h1>
+    </div>
+        <div id="row">
+                <button id="btn" onclick="wn(1)">1</button>
+                <button id="btn" onclick="wn(2)">2</button>
+                <button id="btn" onclick="wn(3)">3</button>
+                <button id="btn" onclick="wn('-')">-</button>
+    </div>
+    <div id="row">
+        <button id="btn" onclick="wn(4)">4</button>
+                <button id="btn" onclick="wn(5)">5</button>
+                <button id="btn" onclick="wn(6)">6</button>
+                <button id="btn" onclick="wn('+')">+</button>
+    </div>
+    <div id="row">
+        <button id="btn" onclick="wn(7)">7</button>
+                <button id="btn" onclick="wn(8)">8</button>
+                <button id="btn" onclick="wn(9)">9</button>
+                <button id="btn" onclick="wn('/')">/</button>
+    </div>
+    <div id="row">
+        <button id="btn" onclick="wn(0)">0</button>
+                <button id="btn" onclick="wn('.')">.</button>
+                <button id="btn" onclick="wa()">=</button>
+                <button id="btn" onclick="wn('*')">*</button>
+    </div>
+    <div id="row">
+        <button id="btn" class="c1" onclick="del()">Delete</button>
+                <button id="btn" class="c1" onclick="clr()">Clear</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

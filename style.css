@@ -1,0 +1,29 @@
+body{
+    background-color: mintcream;
+    text-align: center;
+    font-family: Verdana;
+}
+ #outer{
+        width: fit-content;
+        margin: 20px auto;
+    }
+    button{
+        width: 70px;
+        height: 70px;
+        margin: 10px;
+        font-size: 45px;
+        box-shadow: 4px 4px #a6fbb2;
+        cursor: pointer;
+        border-radius: 9px;
+        background-color: whitesmoke;
+        color: black;
+    }
+    #h11{
+        border-radius: 10px;
+        height: 60px;
+        border: 2px solid black;
+        width: 330px;
+    }
+    .c1{
+        width: 150px;
+    }
