@@ -17,6 +17,6 @@ function wa(){
 function del(){
     b=document.getElementById('h11').innerText;
     c=b.slice( 0,b.length-1);
-    document.getElementById('h11').innerText=c
+    document.getElementById('h11').innerText=c;
 }
     
