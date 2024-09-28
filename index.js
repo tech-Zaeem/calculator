@@ -14,3 +14,9 @@ function wa(){
     ans=eval(exp);
     document.getElementById('h11').innerText=ans;
 }
+function del(){
+    b=document.getElementById('h11').innerText;
+    c=b.slice( 0,b.length-1);
+    document.getElementDyId('h11').innerText=c
+}
+    
